@@ -5,8 +5,9 @@ A HTTP server which handles CORS.
 go get github.com/gorilla/handlers
 go get github.com/gorilla/mux
 
-# Just do <go run main.go> to run
+# Just run the below command to run
+go run main.go
 
-#some CURL commands
+# some CURL commands
 curl -X POST http://127.0.0.1:12345/ -d "enjoy"
 curl http://127.0.0.1:12345/
